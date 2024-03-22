@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset = "UTF-8">
+		<meta name="author" content="AJS & AP"/>
+		<meta name="keywords" content="Pokemon API"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "css/styles.css"/>
+        <link rel ="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+        <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    </head>
+    <body> 
+        <nav>
+            <div class="nav-center">
+                <img class="logo" src="src/logo.png" alt="Pokemon Logo">
+                <ul class="links">
+                    <li class="home">
+                    <a href="index.html">home</a>
+                    </li>
+                    <li class="poke">
+                    <a href="pokedex.html">pokedex</a>
+                    </li>
+                    <li class="faq">
+                    <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="carousel">
+                <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="src/pokemon.gif">
+                    </div>
+                    <div class="carousel-controls">
+                        <label for="img-4" class="prev-slide">
+                        <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-2" class="next-slide">
+                        <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="src/regigigas.gif">
+                    </div>
+                    <div class="carousel-controls">
+                        <label for="img-1" class="prev-slide">
+                        <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-3" class="next-slide">
+                        <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="src/ashe.gif">
+                    </div>
+                    <div class="carousel-controls">
+                        <label for="img-2" class="prev-slide">
+                        <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-4" class="next-slide">
+                        <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-4" />
+                    <li class="slide-container">
+                    <div class="slide-image">
+                        <img src="src/pikachu.gif">
+                    </div>
+                    <div class="carousel-controls">
+                        <label for="img-3" class="prev-slide">
+                        <span>&lsaquo;</span>
+                        </label>
+                        <label for="img-1" class="next-slide">
+                        <span>&rsaquo;</span>
+                        </label>
+                    </div>
+                    </li>
+                    <div class="carousel-dots">
+                    <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                    <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                    </div>
+                </ul>
+            </div>
+            <div class="nine">
+                <h1>PokeHub<span>Gotta Catch 'Em All</span></h1>
+                <p>Pokehub, it is a web application that serves as a digital encyclopedia for Pokémon. It provides information about different legendary Pokémon species for now, including their names, types, abilities, stats, evolution chains. Users can search for specific Pokémon, browse through entries, and learn more about their favorite creatures from the Pokémon universe. The PokeHub typically includes detailed illustrations of each Pokémon to enhance the user experience.</p>
+            </div>
+
+            <div class="pokeballsss">
+                <div id="pokeball-1" class="pokeball">
+                    <button id="toggle-button1"></button>
+                    <article>
+                      <h1><span>Vision</span></h1>
+                      <p>"To become the ultimate online destination for Pokémon enthusiasts, providing comprehensive and interactive information about all Pokémon species to enhance the gaming and fandom experience."</p>
+                    </article>
+                </div>
+                
+                <div id="pokeball-2" class="pokeball">
+                    <button id="toggle-button"></button>
+                    <article>
+                      <h1><span>Mission</span></h1>
+                      <p>"Our mission is to create a user-friendly and visually engaging platform that offers detailed and accurate information about Pokémon, including their stats, abilities, evolutions, and movesets. We aim to continuously update and improve our database to ensure that users have access to the latest and most reliable information. Our goal is to cultivate a vibrant community of Pokémon fans and empower them with the knowledge they need to enjoy and excel in the Pokémon universe."</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="containerss">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>authors</h4>
+                        <ul>
+                            <li><a href="#">Arvin O. Padilla</a></li>
+                            <li><a href="#">Aaron Joshua G. Sese</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Pokemon</h4>
+                        <ul>
+                            <li><a href="pokedex.html">pokedex</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/eljayXkrinA"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/haeun_jay/?fbclid=IwAR2UuiCUNtwxtnwCfK4UmlJ66SLz0zLPXqBUtFmJsEgXr6W_8L8G1HK4OdI"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
