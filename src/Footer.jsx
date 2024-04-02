@@ -2,7 +2,8 @@ export default function footer(){
     return(
         <footer>
             <p>&copy; {new Date().getFullYear()}
-            My food Website || Written by: Padilla</p>
+            &nbsp;
+             My Attendance Monitoring Website || Written by: Padilla</p>
         </footer>
     )
 }
