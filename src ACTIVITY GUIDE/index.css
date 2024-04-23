@@ -1,0 +1,133 @@
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+
+h1 {
+  color: #333;
+}
+
+input,
+textarea {
+  display: block;
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+li button:hover {
+  background-color: #bd2130;
+}
+/* App.css */
+
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(255, 188, 188); /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Rounded corners */
+}
+
+h1 {
+  color: #333;
+}
+
+input,
+textarea {
+  display: block;
+  width: 97%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+li button:hover {
+  background-color: #bd2130;
+}
+/* ReviewForm.css */
+
+.review-form-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.review-form {
+  max-width: 400px; /* Adjust the max-width as needed */
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
